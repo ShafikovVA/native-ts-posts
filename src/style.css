@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+.post {
+  @apply bg-white w-full p-5 rounded-sm flex flex-col
+}
+
+.post__title {
+  @apply text-2xl font-medium mb-2
+}
+
+.post__text {
+  @apply mb-8
+}
+
+.reactions {
+  @apply flex gap-5
+}
+
+.addButton {
+  @apply rounded border border-1 px-3 py-1 cursor-pointer hover:bg-gray-100
+}
+
+.emojiButton {
+  @apply rounded-xl border border-1 px-3 py-1 cursor-pointer flex gap-3 hover:bg-gray-100
+}
+.emojiButton.current {
+  @apply bg-blue-100 border-blue-500
+}
+
+.emojiButton__text {
+  @apply font-semibold
+}

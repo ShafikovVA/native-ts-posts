@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Vite + TS</title>
+    <script type="module" src="/src/index.ts"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container mx-auto mt-40 flex flex-col justify-center">
+        <div class="relative w-full flex">
+          <h1 class="text-4xl font-medium w-full text-center mb-5">Post list</h1>
+          <ul class="absolute top-0 right-0 flex w-fit gap-10">
+            <li>
+              <button class="a">+</button>
+            </li>
+          </ul>
+        </div>
+        <div class="post-list w-full h-100 flex flex-col p-5 gap-8 bg-gray-200 rounded">
+          <article data-id="1" class="post">
+            <p class="post__title">PostTitle</p>
+            <p class="post__text">PostTitle</p>
+            <div class="reactions">
+              <button class="addButton">+</button>
+              <button class="emojiButton">
+                <span class="emojiButton__text">clown</span>
+                <span class="emojiButton__counter">3</span>
+              </button>
+              <button class="emojiButton">
+                <span class="emojiButton__text">shit</span>
+                <span class="emojiButton__counter">2</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

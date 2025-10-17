@@ -1,4 +1,4 @@
-import { EventEmitter } from "../../utils/EventEmitter";
+import { EventEmitter } from "../../../utils/EventEmitter";
 import { EmojiList } from "../emoji-list/EmojiList";
 import { PostDomManager } from "./PostDomManager";
 

@@ -1,5 +1,5 @@
-import { EventEmitter } from "../../utils/EventEmitter";
-import { EventListenerManager } from "../../utils/EventListenerManager";
+import { EventEmitter } from "../../../utils/EventEmitter";
+import { EventListenerManager } from "../../../utils/EventListenerManager";
 import { EmojiDomManager } from "./EmojiDomManager";
 
 export interface IEmojiProps {

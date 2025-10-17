@@ -1,4 +1,4 @@
-import type { EventEmitter } from "../../utils/EventEmitter";
+import type { EventEmitter } from "../../../utils/EventEmitter";
 import type { IPostProps, PostEventEmitter } from "./Post";
 
 interface IPostDomManagerProps extends IPostProps{

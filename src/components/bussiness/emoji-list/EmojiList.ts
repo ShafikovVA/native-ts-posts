@@ -1,5 +1,5 @@
-import { EventEmitter } from "../../utils/EventEmitter";
-import { EventListenerManager } from "../../utils/EventListenerManager";
+import { EventEmitter } from "../../../utils/EventEmitter";
+import { EventListenerManager } from "../../../utils/EventListenerManager";
 import { Emoji } from "../emoji/Emoji";
 import { EmojiListDomManager } from "./EmojiListDomManager";
 

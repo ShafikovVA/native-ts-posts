@@ -1,4 +1,4 @@
-import type { EventEmitter } from "../../utils/EventEmitter";
+import type { EventEmitter } from "../../../utils/EventEmitter";
 import type { EmojiEventEmitter, IEmojiProps } from "./Emoji";
 
 interface IEmojiDomManagerProps extends Omit<IEmojiProps, 'onClick'>{
